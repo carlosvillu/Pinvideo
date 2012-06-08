@@ -7,6 +7,7 @@ require.config
 define (require) ->
 
   MainRouter = require 'routes/main'
+
   Backbone = require 'backbone'
   
   new MainRouter()

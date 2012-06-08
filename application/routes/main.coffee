@@ -8,9 +8,7 @@ define (require) ->
       '!gallery': 'gallery'
 
     home: ->
-      alert 'Home'
 
     gallery: ->
-      alert 'Gallery'
 
   MainRoute

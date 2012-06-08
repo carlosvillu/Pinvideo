@@ -17,13 +17,9 @@
         '!gallery': 'gallery'
       };
 
-      MainRoute.prototype.home = function() {
-        return alert('Home');
-      };
+      MainRoute.prototype.home = function() {};
 
-      MainRoute.prototype.gallery = function() {
-        return alert('Gallery');
-      };
+      MainRoute.prototype.gallery = function() {};
 
       return MainRoute;
 
